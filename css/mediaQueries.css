@@ -1,0 +1,152 @@
+@media screen and (max-width : 1210px){
+    #timeline{
+        left: 100px;
+    }
+}
+@media screen and (max-width: 1070px){
+    #formation #container-formation .fromation{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1030px){
+    #formation{
+        height: 1300px;
+    }
+    #formation #container-formation{
+        height: 90%;
+        display: block;
+        /* border: 1px solid; */
+    }
+    #formation #container-formation .fromation{
+        width: 50%;
+        height: 350px;
+        border: 1px solid;
+        margin: 15px auto;
+    }
+    #timeline{
+        left: 0;
+    }
+     #timeline .event{
+        width: 450px;
+        height: 150px;
+    } 
+}
+@media screen and (max-width: 941px){
+
+    #propos{
+        height: 425px;
+    }
+    #propos #text #para{
+        width: 75%;
+        height: 70%;
+    }
+}
+@media screen and (max-width: 795px){
+    #timeline .event{
+        width: 350px;
+        height: 150px;
+    } 
+}
+@media screen and (max-width: 735px){
+    #timeline .event{
+        height: 150px;
+    }
+    #timeline .text-content .para-exp{
+        height: 50%;
+    }
+    #formation #container-formation .fromation{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 643px){
+    #propos{
+        height: 500px;
+    }
+    #propos #text #para{
+        width: 80%;
+        height: 70%;
+    }
+    /* #timeline .text-content:nth-child(1){
+        height: 190px;
+    } */
+    #timeline .event .para-exp p{
+        font-size: 14px;
+    }
+    #timeline .event{
+        width: 300px;
+        height: 175px;
+    } 
+}
+@media screen and (max-width: 550px){
+    #experiences{
+        height: 1150px;
+    } 
+    #timeline .event{
+        width: 200px;
+        height: 250px;
+    }
+    #formation #container-formation .fromation h2{
+        font-size: 25px;
+    }
+    #formation #container-formation .fromation h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 528px){
+    #propos #text #para{
+        height: 80%;
+    }
+    #competences{
+        height: 700px;
+    }
+    #competences #logo-comp{
+        height: 90%;
+    }
+    #competences #logo-comp #logo-comp-frist-ligne, #competences #logo-comp #logo-comp-second-ligne{
+        display: block;
+    }
+    #competences #logo-comp #logo-comp-second-ligne{
+        margin-top: -25px;
+    }
+    #competences #logo-comp #logo-comp-frist-ligne .logo, #competences #logo-comp #logo-comp-second-ligne .logo{
+        margin-top: -20px;
+        /* border: 1px solid; */
+        align-items: center;
+    }
+}
+/* TEL */
+
+@media screen and (max-width: 475px){
+    #propos{
+        height: 550px;
+    }
+    #propos #text #para{
+        height: 90%;
+        width: 85%
+    }
+}
+@media screen and (max-width: 400px){
+    #experiences{
+        height: 1325px;
+    }
+    #timeline .event{
+        width: 175px;
+        height: 300px;
+    } 
+}
+@media screen and (max-width: 359px){
+    #propos{
+        height: 600px;
+    }
+    #propos #text #para{
+        height: 99%;
+        width: 85%;
+    }
+    #experiences{
+        height: 1400px;
+    }
+    #timeline .event{
+        width: 150px;
+        height: 325px;
+    } 
+}

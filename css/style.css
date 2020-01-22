@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+h1, h2, h4, h5, a{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+/* HEADER */
+/* MENU */
+#accueil{
+    /* margin-top: -17px;
+    /* height: 80px;*/
+    width: 100%; 
+    background-color: #343A40;
+    position: fixed;
+    z-index: 10;
+}
+#accueil ul{ 
+    /* border: 1px solid;  */
+    list-style-type: none;
+    /* height: 70px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accueil a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 10px 15px 10px;
+    font-size: 11px;
+} 
+#accueil ul a:hover{
+    cursor: pointer;
+    background-color: #D01515;
+}
+/* ACCUEIL */
+#photo-cv{
+    width: 100%;
+    height: 700px;
+    background-color: #D01515;
+}
+.photo{
+    /* border: 1px solid; */
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    border: 1px solid white;
+    margin-top: 100px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.name{
+    margin-top: 80px;
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.name div{
+    /* border: 1px solid; */
+    text-align: center;
+}
+.name .nom{
+    color: white;
+    font-size: 25px;
+}
+.name .metier h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.name .case-cv{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.name .case-cv a{
+    color: white;
+    font-weight: bold;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+.name .case-cv a:hover{
+    background-color: #FFF;
+    color: #D01515;
+}
+.trait-red{
+    margin-top: 10px;
+    width: 100%;
+    height: 5%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trait-red .bordure-red{
+    border-top: 2px solid #D01515;
+    width: 10%;
+}
+.trait-white{
+    width: 100%;
+    margin-top: 10px;
+    height: 5%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trait-white .bordure-white{
+    border-top: 2px solid white;
+    width: 10%;
+    margin-top: 20px;
+}
+/* A PROPOS DE MOI */
+#propos{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+#propos #titre-propos{
+    height: 5%;
+    width: 100%; 
+/* border: 1px solid; */
+    text-transform: uppercase;
+}
+#propos #titre-propos h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #D01515;
+}
+#propos #text{
+    width: 100%;
+    height: 77%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#propos #text #para{
+    background-color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    width: 65%;
+    height: 65%;
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+#propos #text #para p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+/* COMPETENCES */
+#competences {
+    background-color: #D01515;
+    width: 100%;
+    height: 300px;
+    /*  border: 1px solid; */
+    text-align: center;
+}
+#competences #titre-competence{
+    margin-top: 30px;
+    width: 100%;
+    height: 5%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#competences #titre-competence h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#competences #logo-comp{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid; */
+}
+#competences #logo-comp #logo-comp-frist-ligne{
+    height: 45%;
+    width: 100%;
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo-comp-frist-ligne div{
+    font-size: 70px
+}
+#competences #logo-comp #logo-comp-second-ligne{
+    height: 45%;
+    width: 100%;
+    /* margin-top: -20px; */
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo-comp-second-ligne div{
+    font-size: 70px
+}
+#logo-comp-frist-ligne div i, #logo-comp-second-ligne div i{
+    color: #333333
+}
+/* EXPERIENCES PRO */
+#experiences{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+#experiences #titre-experience{
+    margin-top: 10px;
+    width: 100%;
+    height: 2%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#experiences #titre-experience h2{
+    color: #D01515;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* TimeLine */
+#timeline-content {
+    /* border: 1px solid;  */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height:90%; 
+  }
+#timeline {
+    border-left: 4px solid #D01515;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    /* margin: 50px auto; */
+    width: 100%;
+    left: 200px;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 30%;
+}
+#timeline h3 {
+    /* border: 1px solid; */
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+    margin: 5px 0 5px 5px;
+    /* font-weight: 400; */
+    font-size: 1.4em;
+}
+/* block timeline */
+#timeline .event {
+    /* border: 1px solid; */
+    /* background-color: #ddd; */
+    width: 500px;
+    height: 150px;
+    /* border-bottom: 1px dashed rgba(255, 255, 255, 0.1); */
+    /* padding-bottom: 25px; */
+    margin-bottom: 50px;
+    position: relative;
+    /* background-color: #ddd; */
+    border-radius: 5px;
+    /* box-shadow: 0 1px 6px rgba(0,0,0, 0.2); */
+    font-family: sans-serif;
+}
+/* date et rond */
+#timeline .event:before, #timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+/* date */
+#timeline .event:before {
+    left: -217.5px;
+    content: attr(data-date);
+    text-align: right;
+    /* font-weight: 100; */
+    font-size: 0.9em;
+    min-width: 120px;
+}
+/* rond */
+#timeline .event:after {
+    box-shadow: 0 0 0 4px #D01515;
+    left: -57.5px;
+    background: #313534;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+    transition: all 0.3s ease-in 0s
+}
+#timeline .event:hover:after {
+    box-shadow: 0 0 0 4px #313534;
+    left: -59.925px;
+    background: #D01515;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    content: "";
+    top: 5px;
+}
+/* block contenant du text */
+#timeline .text-content{
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.2);
+    font-family: sans-serif;
+}
+#timeline .text-content h4{
+    color: #D01515;
+    margin: 5px 0 0 5px;
+    /* border: 1px solid; */
+    height: 33%;
+    font-weight: bold;
+    font-size: 16px;
+}
+#timeline .text-content .para-exp{
+    /* border: 1px solid; */
+    height: 80%;
+    margin: 10px 0 0 5px;
+}
+#timeline .text-content .para-exp p{
+    font-weight: bold;
+    text-align: justify;
+}
+/* Formation */
+#formation{
+    width: 100%;
+    height: 500px;
+    background-color: #D01515;
+    text-align: center;
+}
+#formation #titre-formation{
+    margin-top: 10px;
+    width: 100%;
+}
+#formation #titre-formation h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#formation #container-formation{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#formation #container-formation .fromation{
+    width: 20%;
+    height: 90%;
+    margin-right: 10px ;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ddd;
+    font-weight: bold;
+}
+#formation #container-formation .fromation h2{
+    color: #D01515;
+    font-weight: bold;
+    /* border: 1px solid; */
+    margin: 15px 0;
+}
+#formation #container-formation .fromation .date-formation{
+    color: #888;
+    /* border: 1px solid; */
+    margin: 30px 0;
+}
+/* PROJET */
+#projet{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+#projet #titre-projet{
+    margin-top: 10px;
+    width: 100%;
+    height: 2%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projet #titre-projet h2{
+    color: #D01515;
+    font-weight: bold;
+    font-size: 30px;
+}
+#projet-container{
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.projet{
+    margin-top: 15px;
+    width: 45%;
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+#projet-container .projet .lien-projet{
+    text-decoration: none;
+}
+#projet-container .projet .lien-projet img {
+    filter: grayscale(100%);
+    border: 1px solid;
+    border-radius: 10px;
+}
+#projet-container .projet .lien-projet img:hover{
+    filter: none;
+    border: 1px solid;
+    border-radius: 10px;
+}
