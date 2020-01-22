@@ -1,14 +1,25 @@
 @media screen and (max-width : 1210px){
+    /* bloc experience */
     #timeline{
         left: 100px;
     }
 }
 @media screen and (max-width: 1070px){
+    /* bloc formation */
     #formation #container-formation .fromation{
         width: 25%;
     }
 }
 @media screen and (max-width: 1030px){
+    /* bloc experience */
+    #timeline{
+        left: 0;
+    }
+     #timeline .event{
+        width: 450px;
+        height: 150px;
+    } 
+    /* bloc formation */
     #formation{
         height: 1300px;
     }
@@ -23,16 +34,20 @@
         border: 1px solid;
         margin: 15px auto;
     }
-    #timeline{
-        left: 0;
+    
+    /* bloc projet */
+    #projet #projet-container{
+        display: block;
+        width: 90%;
+        /* border: 1px solid; */
     }
-     #timeline .event{
-        width: 450px;
-        height: 150px;
-    } 
+    #projet #projet-container .projet{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media screen and (max-width: 941px){
-
+    /* bloc a Propos de mois */
     #propos{
         height: 425px;
     }
@@ -40,25 +55,33 @@
         width: 75%;
         height: 70%;
     }
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 795px){
+    /* bloc experiences */
     #timeline .event{
         width: 350px;
         height: 150px;
     } 
 }
 @media screen and (max-width: 735px){
+    /*  bloc experiences */
     #timeline .event{
         height: 150px;
     }
     #timeline .text-content .para-exp{
         height: 50%;
     }
+    /* bloc formation */
     #formation #container-formation .fromation{
         width: 65%;
     }
 }
 @media screen and (max-width: 643px){
+    /* bloc a propos de mois */
     #propos{
         height: 500px;
     }
@@ -66,9 +89,7 @@
         width: 80%;
         height: 70%;
     }
-    /* #timeline .text-content:nth-child(1){
-        height: 190px;
-    } */
+    /* bloc experiences */
     #timeline .event .para-exp p{
         font-size: 14px;
     }
@@ -76,8 +97,17 @@
         width: 300px;
         height: 175px;
     } 
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 80%;
+    }
+    #projet #projet-container .projet .lien-projet img{
+        width: 270px;
+        height: 220px;
+    }
 }
 @media screen and (max-width: 550px){
+    /* bloc experiences */
     #experiences{
         height: 1150px;
     } 
@@ -85,6 +115,7 @@
         width: 200px;
         height: 250px;
     }
+    /* bloc formation */
     #formation #container-formation .fromation h2{
         font-size: 25px;
     }
@@ -93,9 +124,11 @@
     }
 }
 @media screen and (max-width: 528px){
+    /* bloc a propo de moi */
     #propos #text #para{
         height: 80%;
     }
+    /* bloc compétences */
     #competences{
         height: 700px;
     }
@@ -117,6 +150,7 @@
 /* TEL */
 
 @media screen and (max-width: 475px){
+    /* bloc a propos de moi */
     #propos{
         height: 550px;
     }
@@ -124,8 +158,17 @@
         height: 90%;
         width: 85%
     }
+    /* bloc projet */
+    #projet #projet-container{
+        width: 100%;
+    }
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 400px){
+    /* bloc experiences */
     #experiences{
         height: 1325px;
     }
@@ -135,6 +178,7 @@
     } 
 }
 @media screen and (max-width: 359px){
+    /* bloc a propo de moi */
     #propos{
         height: 600px;
     }
@@ -142,6 +186,7 @@
         height: 99%;
         width: 85%;
     }
+    /* bloc experiences */
     #experiences{
         height: 1400px;
     }
@@ -149,4 +194,12 @@
         width: 150px;
         height: 325px;
     } 
+    /* bloc projet */
+    #projet #projet-container .projet .lien-projet img{
+        width: 250px;
+        height: 200px;
+    }
+    #projet #projet-container .projet{
+        height: 75%;
+    }
 }
