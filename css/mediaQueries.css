@@ -37,7 +37,7 @@
     
     /* bloc projet */
     #projet{
-        height: 750px;
+        height: 1100px;
     }
     #projet #projet-container{
         display: block;
@@ -45,7 +45,7 @@
         /* border: 1px solid; */
     }
     .projet{
-        height: 45%;
+        height: 30%;
         margin-top: 25px
     }
     #projet #projet-container .projet{
